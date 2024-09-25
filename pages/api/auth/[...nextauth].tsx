@@ -1,7 +1,7 @@
 import NextAuth from 'next-auth'
 import GoogleProvider from 'next-auth/providers/google'
 import EmailProvider from 'next-auth/providers/email'
-import { FirebaseAdapter } from '@next-auth/firebase-adapter'
+import { FirestoreAdapter } from '@next-auth/firebase-adapter'
 import { db } from '../../../src/firebase'
 import * as firestoreFunctions from 'firebase/firestore'
 
