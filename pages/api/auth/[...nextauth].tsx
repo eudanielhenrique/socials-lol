@@ -7,7 +7,7 @@ import * as firestoreFunctions from 'firebase/firestore'
 
 export default NextAuth({
   // Adapter
-  adapter: FirebaseAdapter({ db: db, ...firestoreFunctions }),
+  adapter: FirestoreAdapter({ db: db, ...firestoreFunctions }),
 
   // Configure one or more authentication providers
   providers: [
